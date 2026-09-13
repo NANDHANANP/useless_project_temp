@@ -2,96 +2,78 @@
 
 
 
-# [Project Name] 🎯
+# [AGGRESSIVE SPELL CHECKER] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [TRUST THE PROCESS!]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Nandhana N P] - [Mar Athanasius college of Engineering Kothamangalam]
+- Member 2: [Farhana Abdul Gafoor] -[Mar Athanasius college of Engineering Kothamangalam]
+
 
 ### Project Description
-[2-3 lines about what your project does]
+[The main purpose is to detect common spelling mistakes and give the user a funny, aggressive pirate-style response instead of automatically correcting the mistakes.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[The ridiculous problem we identified is that existing spellcheckers are too helpful. They simply correct users’ mistakes. Our project solves the completely unnecessary problem of making spelling mistakes more entertaining by judging the user instead of correcting them.]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[We solve this ridiculous problem by creating an Aggressive Spellchecker that detects common spelling mistakes and responds with funny pirate insults, poems, an anger meter, and a pirate rank instead of correcting the user’s spelling.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [HTML,CSS,JavaScript]
+- [none]
+- [none]
+- [VScode,webbrowser]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+[no installation required]
 
 # Run
-[commands]
+[no]
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![<img width="847" height="490" alt="image" src="https://github.com/user-attachments/assets/43c42e16-7e5f-40fe-b23f-b506de4cb1c9" />
+](Aggressive Spellchecker User Interface and Text Input)
+**
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![<img width="784" height="485" alt="image" src="https://github.com/user-attachments/assets/6b3392b0-fce7-4807-9abc-d2cc372ef1d3" />
+](Captain’s Verdict and Typo Statistics)
+**
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![<img width="715" height="482" alt="image" src="https://github.com/user-attachments/assets/cae00ae3-ea5c-4f16-93b8-745d93801d25" />
+](The Aggressive Spellchecker in Action)
+**
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![Our project starts when the user enters text into the text editor. When the Attack My Spelling button is clicked, JavaScript reads and analyzes the text using a predefined typo dictionary. If the text is empty, an empty-input message is displayed. Otherwise, the program checks for known spelling mistakes. If mistakes are found, the typo count is increased and stored in localStorage, and a random pirate poem and angry verdict are generated. If no mistakes are found, a suspiciously correct message is shown. Finally, the verdict, poem, typo count, anger level, rank, and original text are displayed on the webpage.](<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/de380ab9-cb68-4348-a331-a4aed380da5e" />
+)
+**
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://youtube.com/shorts/jbrP7Gng87c?si=Q8SYVOs7-1bKJfLq]
+**
 
-# Additional Demos
-[Add any extra demo materials/links]
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Farhana Abdul Gafoor 1]: [I mainly worked on the frontend. I designed the HTML structure and CSS interface, including the text editor, buttons, verdict section and statistics. I also worked on the responsive design and UI testing.]
+- [Nandhana N P 2]: [Specific contributions]
+- [Name 3]: [I mainly worked on the JavaScript functionality. I implemented spelling mistake detection, the pirate-style verdicts and poems, typo statistics, anger and rank calculation, localStorage, and the clear functionality. I also tested the complete application.]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
