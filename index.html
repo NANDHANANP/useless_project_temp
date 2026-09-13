@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Aggressive Spellchecker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <header>
+            <div class="pirate">🏴‍☠️</div>
+
+            <div>
+                <h1>The Aggressive Spellchecker</h1>
+                <p>It doesn't correct your spelling. It judges it, then turns it into poetry out of spite.</p>
+            </div>
+        </header>
+
+
+        <!-- TEXT EDITOR -->
+        <div class="card">
+
+            <h2>✍️ Your Questionable Writing</h2>
+
+            <textarea id="editor"
+                spellcheck="false"
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="off"
+                placeholder="Try typing:
+I definately recieve the package tomorow."></textarea>
+
+            <div class="buttons">
+
+                <button onclick="attackSpelling()">
+                    ⚔️ Attack My Spelling
+                </button>
+
+                <button class="clear" onclick="clearText()">
+                    🧹 Clear
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- VERDICT -->
+        <div class="card verdict">
+
+            <h2>🏴‍☠️ Captain's Verdict</h2>
+
+            <p id="verdict">
+                Your spelling shall be judged here.
+            </p>
+
+            <div id="poem"></div>
+
+        </div>
+
+
+        <!-- STATISTICS -->
+        <div class="stats">
+
+            <div class="card stat">
+                <p>☠️ Typos</p>
+                <h2 id="typoCount">0</h2>
+            </div>
+
+            <div class="card stat">
+                <p>😡 Anger</p>
+                <h2 id="anger">0%</h2>
+            </div>
+
+            <div class="card stat">
+                <p>🏆 Rank</p>
+                <h2 id="rank">Apprentice</h2>
+            </div>
+
+        </div>
+
+
+        <!-- MISTAKES -->
+        <div class="card">
+
+            <h2>📜 Suspicious Words</h2>
+
+            <p class="hint">
+                The Captain knows every correct spelling by heart. He will not share.
+            </p>
+
+            <div id="mistakes">
+                No crimes detected yet.
+            </div>
+
+        </div>
+
+
+        <!-- PIRATE TRANSLATION -->
+        <div class="card">
+
+            <h2>🗺️ The Captain's Translation</h2>
+
+            <p class="hint">
+                Every sentence gets rewritten into dialect, whether it needs it or not. This is not a spelling
+                fix. This is a downgrade.
+            </p>
+
+            <div id="translation">
+                Nothing to translate yet.
+            </div>
+
+        </div>
+
+
+        <!-- ORIGINAL TEXT -->
+        <div class="card">
+
+            <h2>🎭 Original Text</h2>
+
+            <p>
+                The application deliberately does NOT correct your spelling.
+                Because that would be useful.
+            </p>
+
+            <div id="original">
+                Nothing to report.
+            </div>
+
+        </div>
+
+
+        <footer>
+            Made for absolutely no practical reason. ☠️
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
 
